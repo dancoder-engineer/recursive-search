@@ -2,7 +2,7 @@ function recursiveSearch(array, term) {
   if (array.shift() === term) { return true }
 	if (array.length === 0) { return false }
 	return recursiveSearch(array, term)
-  // type your code here
+  // type your code here 
 }
 
 if (require.main === module) {
